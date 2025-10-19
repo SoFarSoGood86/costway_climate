@@ -7,8 +7,8 @@
 [![GitHub Release](https://img.shields.io/github/v/release/SoFarSoGood86/costway_climate)](https://github.com/SoFarSoGood86/costway_climate/releases)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Integration-41BDF5)](https://www.home-assistant.io/)
 
-**COSTWAY** mobil climate intégration for Home Assistant.
-Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jasonacox/tinytuya).
+**COSTWAY** air conditioner intégration for Home Assistant.
+Working with **Tuya local** protocol - libray [tinytuya](https://github.com/jasonacox/tinytuya).
 
 ---
 
@@ -18,8 +18,8 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 - 🌡️ Set temperature.
 - 🔄 Heat / Cool mode.
 - 🌀 Fan speed (Low / Medium / High).
-- 📡 Lecture d’état en temps réel (local)  
-- 🧭 Ajout via l’interface Home Assistant ou YAML
+- 📡 Real time status (local)  
+- 🧭 Add. via Home Assistant ou YAML
 
 ---
 
@@ -45,10 +45,10 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ## Configuration :
 
-### Via Interface graphique (config flow)
+### Via Graphic Interface (config flow)
 
-1. Paramètres → Appareils & services → Add. intégration.  
-2. Rechercher `COSTWAY Climate`.  
+1. Settings → Devices & Services → Add. intégration.  
+2. Research `COSTWAY Climate`.  
 3. Enter the informations :
    - **Device ID**
    - **Local Key**
@@ -70,18 +70,18 @@ climate:
 
 ---
 
-## Exigences
+## Required :
 
-- Compte Tuya configuré avec le climatiseur.  
-- Connexion locale (pas besoin de cloud une fois configuré).  
-- Informations de connexion extraites avec `tinytuya` :
+- Tuya accont configured with COSWAY air conditioner.  
+- Local connexion (no cloud needed once setup).  
+- Connexions informations from `tinytuya` :
   ```bash
   python -m tinytuya wizard
   ```
 
 ---
 
-## Dépannage
+## Need help ! :
 
 - Assurez-vous que le climatiseur est connecté au **même réseau local** que Home Assistant.  
 - Vérifiez que l’adresse IP est fixe ou réservée dans votre routeur.  
@@ -90,7 +90,7 @@ climate:
 
 ---
 
-## Feuille de route (Roadmap)
+## Roadmap :
 
 - [ ] Mode Auto
 - [ ] Gestion de l’humidité (si disponible)
@@ -100,7 +100,7 @@ climate:
 
 ---
 
-## Développement
+## Development :
 
 ```bash
 # Cloner le dépôt
@@ -115,4 +115,4 @@ pip install tinytuya
 
 ---
 
-✨ *Si cette intégration t’a été utile, pense à laisser une étoile sur le dépôt GitHub pour la soutenir !* ⭐
+✨ *If you found this integration useful, please consider leaving a star on the GitHub repository to support it. !* ⭐
