@@ -1,6 +1,6 @@
 ![71vARL+q8TL _AC_SL1500_](https://github.com/user-attachments/assets/355e22d2-4e82-4c45-9610-25af26be7597)
 
-# COSTWAY Mobil Climate Réversible 
+# COSTWAY reversible mobile air conditioner 
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)
 [![License](https://img.shields.io/github/license/SoFarSoGood86/costway_climate)](LICENSE)
