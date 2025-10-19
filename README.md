@@ -1,15 +1,15 @@
-# 🧊 COSTWAY Climate (Tuya Local)
+# COSTWAY Mobil Climate Réversible ( Tuya Local )
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)
 [![License](https://img.shields.io/github/license/SoFarSoGood86/costway_climate)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/SoFarSoGood86/costway_climate)](https://github.com/SoFarSoGood86/costway_climate/releases)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Integration-41BDF5)](https://www.home-assistant.io/)
 
-> Intégration Home Assistant pour contrôler un climatiseur réversible **COSTWAY** fonctionnant avec le protocole **Tuya local** via la librairie [tinytuya](https://github.com/jasonacox/tinytuya).
+> **COSTWAY** mobil climate intégration for Home Assistant. Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jasonacox/tinytuya).
 
 ---
 
-## 🌡️ Fonctionnalités
+## Features :
 
 - ✅ Allumer / éteindre le climatiseur  
 - 🌡️ Régler la température cible  
@@ -20,7 +20,7 @@
 
 ---
 
-## 🧰 Installation
+## Installation :
 
 ### Option 1 — via [HACS](https://hacs.xyz) (recommandé)
 
@@ -40,7 +40,7 @@
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### 📲 Via Interface graphique (config flow)
 
@@ -109,20 +109,6 @@ pip install tinytuya
 
 # Tester localement avec Home Assistant Core
 ```
-
----
-
-## 📜 Licence
-
-MIT © [SoFarSoGood86](https://github.com/SoFarSoGood86)
-
----
-
-## ⭐ Remerciements
-
-- [tinytuya](https://github.com/jasonacox/tinytuya) pour la communication locale Tuya  
-- La communauté [Home Assistant](https://www.home-assistant.io/) pour la documentation et les outils  
-- Les utilisateurs COSTWAY pour les tests sur le terrain
 
 ---
 
