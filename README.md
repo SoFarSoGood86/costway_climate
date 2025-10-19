@@ -10,6 +10,12 @@
 **COSTWAY** air conditioner intégration for Home Assistant.
 Working with **Tuya local** protocol - libray [tinytuya](https://github.com/jasonacox/tinytuya).
 
+Device Compatible :
+COSTWAY
+GOPLUS
+RELAX4LIFE
+GIANTEX
+
 ---
 
 ## Features :
