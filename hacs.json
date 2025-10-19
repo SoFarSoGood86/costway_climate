@@ -1,5 +1,5 @@
 {
-  "name": "COSTWAY Climate (Tuya Local)",
+  "name": "COSTWAY Climate",
   "content_in_root": false,
   "homeassistant": "2023.0.0"
 }
