@@ -1,0 +1,16 @@
+{
+  "domain": "costway_climate",
+  "name": "COSTWAY Climate (Tuya Local)",
+  "version": "1.0.0",
+  "documentation": "https://github.com/SoFarSoGood86/costway_climate",
+  "requirements": [
+    "tinytuya==1.12.0"
+  ],
+  "codeowners": [
+    "@SoFarSoGood86"
+  ],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "integration_type": "device",
+  "dependencies": []
+}

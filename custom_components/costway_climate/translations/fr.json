@@ -1,0 +1,11 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ajouter un climatiseur COSTWAY",
+        "description": "Saisissez les informations de connexion pour votre appareil Tuya."
+      }
+    },
+    "error": {}
+  }
+}
