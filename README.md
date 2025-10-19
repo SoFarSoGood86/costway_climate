@@ -50,7 +50,7 @@ Compatible device : COSTWAY / GOPLUS / RELAX4LIFE / GIANTEX
 ### Via Graphic Interface (config flow)
 
 1. Settings → Devices & Services → Add. intégration.  
-2. Research `COSTWAY Climate`.  
+2. Research `COSTWAY Air Conditioner`.  
 3. Enter the informations :
    - **Device ID**
    - **Local Key**
