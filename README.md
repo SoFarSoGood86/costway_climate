@@ -14,10 +14,10 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ## Features :
 
-- ✅ Allumer / éteindre le climatiseur  
-- 🌡️ Régler la température cible  
-- 🔄 Mode chaud / froid  
-- 🌀 Vitesse du ventilateur (Low / Medium / High)  
+- ✅ Device control (ON / OFF).
+- 🌡️ Set temperature.
+- 🔄 Heat / Cool mode.
+- 🌀 Fan speed (Low / Medium / High).
 - 📡 Lecture d’état en temps réel (local)  
 - 🧭 Ajout via l’interface Home Assistant ou YAML
 
@@ -25,7 +25,7 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ## Installation :
 
-### Option 1 — via [HACS](https://hacs.xyz) (recommandé)
+### Option 1 — via [HACS](https://hacs.xyz) (recommended)
 
 1. In HACS → **Custom Repositories**, add :  
    ```
@@ -37,28 +37,28 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ### Option 2 — Manual
 
-1. Télécharge la dernière [release](https://github.com/SoFarSoGood86/costway_climate/releases).  
-2. Copie le dossier `custom_components/costway_climate` dans le dossier `config/custom_components` de ton installation Home Assistant.  
-3. Redémarre Home Assistant.
+1. Download last [release](https://github.com/SoFarSoGood86/costway_climate/releases).  
+2. Copie folder `custom_components/costway_climate` inside folder `config/custom_components` of your Home Assistant.  
+3. Restart Home Assistant.
 
 ---
 
-## Configuration
+## Configuration :
 
 ### Via Interface graphique (config flow)
 
-1. Paramètres → Appareils & services → Ajouter une intégration.  
+1. Paramètres → Appareils & services → Add. intégration.  
 2. Rechercher `COSTWAY Climate`.  
-3. Saisir les informations :
+3. Enter the informations :
    - **Device ID**
    - **Local Key**
    - **Adresse IP locale**
 
-Ces informations peuvent être récupérées via la librairie [`tinytuya`](https://github.com/jasonacox/tinytuya) ou la [Tuya IoT Platform](https://iot.tuya.com).
+This information can be retrieved via the library [`tinytuya`](https://github.com/jasonacox/tinytuya) or [Tuya IoT Platform](https://iot.tuya.com).
 
 ---
 
-### Via `configuration.yaml` (optionnel)
+### Via `configuration.yaml` (optionnal)
 
 ```yaml
 climate:
