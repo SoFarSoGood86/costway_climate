@@ -27,15 +27,15 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ### Option 1 — via [HACS](https://hacs.xyz) (recommandé)
 
-1. Dans HACS → **Custom Repositories**, ajoute :  
+1. In HACS → **Custom Repositories**, add :  
    ```
    https://github.com/SoFarSoGood86/costway_climate
    ```
    Type : `Integration`
-2. Installe **COSTWAY Climate (Tuya Local)** depuis HACS.
-3. Redémarre Home Assistant.
+2. Install **COSTWAY Climate (Tuya Local)** from HACS.
+3. Restart Home Assistant.
 
-### Option 2 — Manuel
+### Option 2 — Manual
 
 1. Télécharge la dernière [release](https://github.com/SoFarSoGood86/costway_climate/releases).  
 2. Copie le dossier `custom_components/costway_climate` dans le dossier `config/custom_components` de ton installation Home Assistant.  
