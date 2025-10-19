@@ -37,7 +37,7 @@ Working with **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ### Option 2 — Manual
 
-1. Download last [release](https://github.com/SoFarSoGood86/costway_climate/releases).  
+1. Download last [![GitHub Release](https://img.shields.io/github/v/release/SoFarSoGood86/costway_climate)](https://github.com/SoFarSoGood86/costway_climate/releases)
 2. Copie folder `custom_components/costway_climate` inside folder `config/custom_components` of your Home Assistant.  
 3. Restart Home Assistant.
 
