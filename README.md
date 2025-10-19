@@ -45,7 +45,7 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
 
 ## Configuration
 
-### 📲 Via Interface graphique (config flow)
+### Via Interface graphique (config flow)
 
 1. Paramètres → Appareils & services → Ajouter une intégration.  
 2. Rechercher `COSTWAY Climate`.  
@@ -54,11 +54,11 @@ Working witj **Tuya local** protocol - libray [tinytuya](https://github.com/jaso
    - **Local Key**
    - **Adresse IP locale**
 
-📝 Ces informations peuvent être récupérées via la librairie [`tinytuya`](https://github.com/jasonacox/tinytuya) ou la [Tuya IoT Platform](https://iot.tuya.com).
+Ces informations peuvent être récupérées via la librairie [`tinytuya`](https://github.com/jasonacox/tinytuya) ou la [Tuya IoT Platform](https://iot.tuya.com).
 
 ---
 
-### 🧾 Via `configuration.yaml` (optionnel)
+### Via `configuration.yaml` (optionnel)
 
 ```yaml
 climate:
@@ -70,7 +70,7 @@ climate:
 
 ---
 
-## 🧪 Exigences
+## Exigences
 
 - Compte Tuya configuré avec le climatiseur.  
 - Connexion locale (pas besoin de cloud une fois configuré).  
@@ -81,7 +81,7 @@ climate:
 
 ---
 
-## 🧰 Dépannage
+## Dépannage
 
 - Assurez-vous que le climatiseur est connecté au **même réseau local** que Home Assistant.  
 - Vérifiez que l’adresse IP est fixe ou réservée dans votre routeur.  
@@ -90,7 +90,7 @@ climate:
 
 ---
 
-## 🚀 Feuille de route (Roadmap)
+## Feuille de route (Roadmap)
 
 - [ ] Mode Auto
 - [ ] Gestion de l’humidité (si disponible)
@@ -100,7 +100,7 @@ climate:
 
 ---
 
-## 🧑‍💻 Développement
+## Développement
 
 ```bash
 # Cloner le dépôt
